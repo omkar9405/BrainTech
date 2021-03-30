@@ -24,18 +24,19 @@
   <link href="./assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="./assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="./assets/vendor/aos/aos.css" rel="stylesheet">
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <!-- Template Main CSS File -->
   <link href="./assets/css/style.css" rel="stylesheet">
-<script type="text/javascript">
-    $("body").prepend('<div id="globalLoader" class="global-loader"><h1>...BrainTech...</h1></div>');
+<script>
     $(window).load(function() {
-        $("#globalLoader").remove();
-    });
+   $('.preloader').fadeOut('slow');
+});
 </script>
 </head>
 <body>
-
+<div class="preloader">
+<div class="global-loader"><h1>...BrainTech...</h1></div>
+</div>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container">
