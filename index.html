@@ -28,9 +28,9 @@
   <!-- Template Main CSS File -->
   <link href="./assets/css/style.css" rel="stylesheet">
 <script type="text/javascript">
-    jQuery("body").prepend('<div id="globalLoader" class="global-loader"><h1>...BrainTech...</h1></div>');
-    jQuery(document).ready(function() {
-        jQuery("#globalLoader").remove();
+    $("body").prepend('<div id="globalLoader" class="global-loader"><h1>...BrainTech...</h1></div>');
+    $(window).load(function() {
+        $("#globalLoader").remove();
     });
 </script>
 </head>
